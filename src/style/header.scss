@@ -1,0 +1,19 @@
+.appHeader{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 90px;
+  height: 320px;
+  h1{
+    margin-bottom: 0;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+  }
+  h2{
+    backdrop-filter: blur(10px);
+  }
+}
